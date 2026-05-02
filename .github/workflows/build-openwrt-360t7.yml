@@ -21,8 +21,8 @@ on:
       - '360-t7-108M.config'
 
 env:
-  REPO_URL: https://github.com/hanwckf/immortalwrt-mt798x
-  REPO_BRANCH: openwrt-21.02          # 修正：使用存在的分支
+  REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-6.6
+  REPO_BRANCH: openwrt-24.10-6.6          # 修正：使用存在的分支
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: 360-t7-108M.config
   DIY_P1_SH: diy-part1.sh
